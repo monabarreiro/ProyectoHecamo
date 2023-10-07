@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Proyecto Hecamo</string>
+    <string name="Button">Busqueda Enfermedades </string>
+
 </resources>

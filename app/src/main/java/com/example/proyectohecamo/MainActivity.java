@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         public void onClick(View view) {
 
             TextView helloWorldtext = findViewById(+R.id.helloWorldtext);
-            helloWorldtext.setText("Boton clickeado");
+            helloWorldtext.setText("Limon");
             helloWorldtext.setBackgroundColor(+R.color.green);
         }
 

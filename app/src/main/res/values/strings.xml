@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Proyecto Hecamo</string>
     <string name="Button">Busqueda Enfermedades </string>
+    <string name="Cultivos">Cultivos</string>
+
     <string name="Limon">Limon</string>
+    <string name="Soja">Soja</string>
+    <string name="Maiz">Maíz</string>
+
 
 </resources>

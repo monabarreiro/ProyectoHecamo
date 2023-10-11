@@ -22,12 +22,17 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 TextView maiz = findViewById(+R.id.maiz);
                 maiz.setText(R.string.maiz);
+                maiz.setBackgroundColor(+R.color.naranja);
+
 
                 TextView soja = findViewById(+R.id.soja);
                 soja.setText(R.string.soja);
+                soja.setBackgroundColor(+R.color.naranja);
+
 
                 TextView limon = findViewById(+R.id.limon);
                 limon.setText(R.string.limon);
+                limon.setBackgroundColor(+R.color.naranja);
 
             }
 

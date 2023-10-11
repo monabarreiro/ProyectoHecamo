@@ -1,35 +1,80 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentBottom="true"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/helloWorldtext"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="32dp"
-        android:text="@string/Cultivos"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
-    <Button
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
 
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Búsqueda Enfermedades"
-        android:onClick="onClick"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/helloWorldtext"
-         />
+        <TextView
+            android:id="@+id/maiz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#68DBE6"
+            android:text="@string/Maiz"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@string/maiz" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/soja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#68DBE6"
+            android:text="@string/Soja"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@string/soja" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/limon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#68DBE6"
+            android:text="@string/Limon"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:text="@string/limon"
+
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+
+            android:id="@+id/button_busq_cultivos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:onClick="onClick"
+            android:text="@string/b_squeda_de_cultivos"
+            android:textAlignment="center"
+            android:textColor="#F4F4F1" />
+    </LinearLayout>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

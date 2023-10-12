@@ -6,78 +6,83 @@
     android:layout_height="match_parent"
     android:layout_alignParentTop="true"
     android:layout_alignParentBottom="true"
+    android:backgroundTint="#2F6A31"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-309dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@tools:sample/avatars" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:text=" Bienvenidos a AGROAPPI"
+            android:textAlignment="center"
+            android:textSize="34sp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <TextView
-            android:id="@+id/maiz"
+            android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#68DBE6"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            tools:text="La aplicación que resuelve tus dudas acerca de las enfermedades que acosan a tus cultivos" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTintMode="add"
             android:text="@string/Maiz"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            tools:text="@string/maiz" />
+            app:iconTint="#85D888"
+            app:rippleColor="#4CAF50"
+            tools:text="Maiz" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:id="@+id/soja"
+        <Button
+            android:id="@+id/button2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#68DBE6"
             android:text="@string/Soja"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            tools:text="@string/soja" />
+            tools:text="Soja" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
-        <TextView
-            android:id="@+id/limon"
+        <Button
+            android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:backgroundTint="#68DBE6"
             android:text="@string/Limon"
-            android:textAlignment="center"
-            android:textSize="24sp"
-            android:textStyle="bold"
-            tools:text="@string/limon"
-
-            />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            tools:text="Limón" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="82dp" />
 
-        <Button
-
-            android:id="@+id/button_busq_cultivos"
-            android:layout_width="match_parent"
-            android:layout_height="61dp"
-            android:backgroundTint="#4CAF50"
-            android:onClick="onClick"
-            android:text="@string/b_squeda_de_cultivos"
-            android:textAlignment="center"
-            android:textColor="#F4F4F1" />
     </LinearLayout>
 
 

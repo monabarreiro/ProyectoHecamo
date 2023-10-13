@@ -31,7 +31,7 @@
             android:fontFamily="sans-serif-black"
             android:text=" Bienvenidos a AGROAPPI"
             android:textAlignment="center"
-            android:textSize="34sp" />
+            android:textSize="48sp" />
 
         <Space
             android:layout_width="match_parent"
@@ -42,21 +42,36 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingExtra="4sp"
-            android:text="TextView"
+            android:text="Laaplicacion"
             android:textAlignment="center"
-            android:textSize="16sp"
+            android:textSize="18sp"
             tools:text="La aplicación que resuelve tus dudas acerca de las enfermedades que acosan a tus cultivos" />
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="20dp" />
+
+        <TextView
+            android:id="@+id/elegiCultivo"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:autoText="false"
+            android:text="Elegí el cultivo"
+            android:textAlignment="center"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="60dp" />
 
         <Space
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonMaiz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTintMode="add"
@@ -68,24 +83,14 @@
 
         <Space
             android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:clickable="true" />
-
-        <Space
-            android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/buttonSoja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/Soja"
             tools:text="Soja" />
-
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="65dp"
-            android:clickable="true" />
 
         <Space
             android:layout_width="match_parent"

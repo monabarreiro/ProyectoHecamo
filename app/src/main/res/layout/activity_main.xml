@@ -41,6 +41,7 @@
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-medium"
             android:lineSpacingExtra="4sp"
             android:text="Laaplicacion"
             android:textAlignment="center"
@@ -54,11 +55,12 @@
         <TextView
             android:id="@+id/elegiCultivo"
             android:layout_width="match_parent"
-            android:layout_height="49dp"
+            android:layout_height="40dp"
             android:autoText="false"
+            android:fontFamily="sans-serif-black"
             android:text="Elegí el cultivo"
             android:textAlignment="center"
-            android:textSize="14sp"
+            android:textSize="16dp"
             android:textStyle="bold"
             app:autoSizeTextType="uniform" />
 
@@ -74,8 +76,8 @@
             android:id="@+id/buttonMaiz"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
             android:backgroundTintMode="add"
-            android:onClick="true"
             android:text="@string/Maiz"
             app:iconTint="#85D888"
             app:rippleColor="#4CAF50"
@@ -89,6 +91,7 @@
             android:id="@+id/buttonSoja"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
             android:text="@string/Soja"
             tools:text="Soja" />
 
@@ -100,6 +103,7 @@
             android:id="@+id/button4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
             android:text="@string/Limon"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
             tools:text="Limón" />

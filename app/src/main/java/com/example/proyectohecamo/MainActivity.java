@@ -16,36 +16,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button myButton = findViewById(+R.id.button_busq_cultivos);
-        myButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                TextView maiz = findViewById(+R.id.maiz);
-                maiz.setText(R.string.maiz);
-                maiz.setBackgroundColor(+R.color.naranja);
+        TextView maiz = findViewById(R.id.buttonMaiz);
+        maiz.setText(R.string.maiz);
 
 
-                TextView soja = findViewById(+R.id.soja);
-                soja.setText(R.string.soja);
-                soja.setBackgroundColor(+R.color.naranja);
+        //TODO cuidado, los ID de los componentes se agregan con el formato R.id.nombredelcomponente
+        TextView soja = findViewById(R.id.buttonSoja);
+        soja.setText(R.string.soja);
 
 
-                TextView limon = findViewById(+R.id.limon);
-                limon.setText(R.string.limon);
-                limon.setBackgroundColor(+R.color.naranja);
-
-            }
-
-
-
-
-
-
-            });
-
-
-
+        TextView limon = findViewById(R.id.limon);
+        limon.setText(R.string.limon);
     }
-
-
 }

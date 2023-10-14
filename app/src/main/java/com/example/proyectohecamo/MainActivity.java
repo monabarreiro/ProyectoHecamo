@@ -7,6 +7,7 @@ import android.view.View;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -16,23 +17,21 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button myButton = findViewById(+R.id.button_busq_cultivos);
+        Button myButton = findViewById(+R.id.buttonMaiz);
         myButton.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View view) {
-                TextView maiz = findViewById(+R.id.maiz);
+
+
+                TextView maiz = findViewById(+R.id.buttonMaiz);
                 maiz.setText(R.string.maiz);
                 maiz.setBackgroundColor(+R.color.naranja);
+                Toast.makeText(getApplicationContext(),getString(R.string.naranja),Toast.LENGTH_LONG);
 
 
-                TextView soja = findViewById(+R.id.soja);
-                soja.setText(R.string.soja);
-                soja.setBackgroundColor(+R.color.naranja);
 
 
-                TextView limon = findViewById(+R.id.limon);
-                limon.setText(R.string.limon);
-                limon.setBackgroundColor(+R.color.naranja);
 
             }
 

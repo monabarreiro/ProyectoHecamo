@@ -22,7 +22,7 @@
             android:id="@+id/imageView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@tools:sample/avatars" />
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/textView"
@@ -100,7 +100,7 @@
             android:layout_height="wrap_content" />
 
         <Button
-            android:id="@+id/button4"
+            android:id="@+id/limon"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#4CAF50"

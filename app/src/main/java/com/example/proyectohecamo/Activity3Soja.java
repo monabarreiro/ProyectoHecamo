@@ -19,7 +19,7 @@ public class Activity3Soja extends AppCompatActivity {
                 @Override
                 public void onClick(View v) {
 
-                    finish();
+                    finish ();
                 }
             });
 

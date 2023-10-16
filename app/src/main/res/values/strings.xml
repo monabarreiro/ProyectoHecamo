@@ -1,27 +1,13 @@
 <resources>
     <string name="app_name">Proyecto Hecamo</string>
-    <string name="Button">Busqueda Enfermedades </string>
-    <string name="ButtonCultivos">Cultivos</string>
 
     <string name="Limon">Limon</string>
     <string name="Soja">Soja</string>
     <string name="Maiz">Maíz</string>
-    <string name="b_squeda_de_cultivos">Búsqueda de Cultivos</string>
-    <string name="limon">Limon</string>
-    <string name="soja">Soja</string>
-    <string name="maiz">Maíz</string>
-    <string name="title_activity_cultivo_maiz">CultivoMaiz</string>
     <!-- Strings used for fragments for navigation -->
-    <string name="first_fragment_label">First Fragment</string>
-    <string name="second_fragment_label">Second Fragment</string>
-    <string name="next">Next</string>
-    <string name="previous">Previous</string>
 
-    <string name="lorem_ipsum">
-    </string>
     <string name="title_activity_cult_maiz">cultivo Maiz</string>
     <string name="title_activity_prueba">Prueba</string>
-    <string name="naranja">Naranja</string>
 
 
 </resources>

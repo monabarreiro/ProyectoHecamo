@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="naranja">#FFC107</color>
+    <color name="white">#EBEFEB</color>
+    <dimen name="fab_margin">16dp</dimen>
+    <string name="Button">Busqueda Enfermedades </string>
+    <string name="ButtonCultivos">Cultivos</string>
+    <string name="Limon">Limon</string>
+    <string name="Maiz">Maíz</string>
+    <string name="Soja">Soja</string>
+    <string name="app_name">Proyecto Hecamo</string>
+    <string name="b_squeda_de_cultivos">Búsqueda de Cultivos</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="limon">Limon</string>
+    <string name="lorem_ipsum">
+    </string>
+    <string name="maiz">Maíz</string>
+    <string name="naranja">Naranja</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="soja">Soja</string>
+    <string name="title_activity_cult_maiz">cultivo Maiz</string>
+    <string name="title_activity_cultivo_maiz">CultivoMaiz</string>
+    <string name="title_activity_prueba">Prueba</string>
+    <style name="Base.Theme.ProyectoHecamo" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ProyectoHecamo" parent="Base.Theme.ProyectoHecamo"/>
+</resources>

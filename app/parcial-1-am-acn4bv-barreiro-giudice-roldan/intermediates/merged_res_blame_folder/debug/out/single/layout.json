@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/activity_prueba.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_prueba.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/activity_main.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.proyectohecamo.app-mergeDebugResources-39:/layout/activity_activity2_maiz.xml",
+        "source": "com.example.proyectohecamo.app-main-42:/layout/activity_activity2_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/activity_cult_maiz.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_cult_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/fragment_first.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/content_prueba.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/content_prueba.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/fragment_second.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/activity_activity2_maiz.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_activity2_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/content_cult_maiz.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/content_cult_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/fragment_first2.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_first2.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-mergeDebugResources-39:/layout/fragment_second2.xml",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_second2.xml"
+    }
+]

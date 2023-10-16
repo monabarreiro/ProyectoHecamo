@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "com.example.proyectohecamo.app-mergeDebugResources-39:/layout-land/activity_prueba.xml",
+        "source": "com.example.proyectohecamo.app-main-42:/layout-land/activity_prueba.xml"
+    },
+    {
+        "merged": "com.example.proyectohecamo.app-mergeDebugResources-39:/layout-land/activity_cult_maiz.xml",
+        "source": "com.example.proyectohecamo.app-main-42:/layout-land/activity_cult_maiz.xml"
+    }
+]

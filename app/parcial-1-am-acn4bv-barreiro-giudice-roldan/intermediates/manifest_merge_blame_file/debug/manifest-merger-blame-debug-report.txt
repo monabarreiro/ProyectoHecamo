@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.proyectohecamo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] /Users/Moni/.gradle/caches/transforms-3/28a7af075d5af218c19b63a2f54b1523/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.proyectohecamo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] /Users/Moni/.gradle/caches/transforms-3/28a7af075d5af218c19b63a2f54b1523/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] /Users/Moni/.gradle/caches/transforms-3/28a7af075d5af218c19b63a2f54b1523/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.proyectohecamo.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] /Users/Moni/.gradle/caches/transforms-3/28a7af075d5af218c19b63a2f54b1523/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] /Users/Moni/.gradle/caches/transforms-3/28a7af075d5af218c19b63a2f54b1523/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:5:5-52:19
+18        android:allowBackup="true"
+18-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:6:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.9.0] /Users/Moni/.gradle/caches/transforms-3/28a7af075d5af218c19b63a2f54b1523/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+20        android:dataExtractionRules="@xml/data_extraction_rules"
+20-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:7:9-65
+21        android:debuggable="true"
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/ic_launcher"
+24-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:9:9-43
+25        android:label="@string/app_name"
+25-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:11:9-54
+27        android:supportsRtl="true"
+27-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:12:9-35
+28        android:testOnly="true"
+29        android:theme="@style/Theme.ProyectoHecamo" >
+29-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:13:9-52
+30        <activity
+30-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:15:9-17:40
+31            android:name="com.example.proyectohecamo.Activity2Maiz"
+31-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:16:13-42
+32            android:exported="false" />
+32-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:17:13-37
+33        <activity
+33-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:18:9-20:40
+34            android:name="com.example.proyectohecamo.ActivityMaiz"
+34-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:19:13-41
+35            android:exported="false" />
+35-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:20:13-37
+36        <activity
+36-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:21:9-31:20
+37            android:name="com.example.proyectohecamo.Prueba"
+37-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:22:13-35
+38            android:exported="true"
+38-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:23:13-36
+39            android:label="@string/title_activity_prueba"
+39-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:24:13-58
+40            android:theme="@style/Theme.ProyectoHecamo" >
+40-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:25:13-56
+41            <intent-filter>
+41-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:26:13-30:29
+42                <action android:name="android.intent.action.MAIN" />
+42-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:27:17-69
+42-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:27:25-66
+43
+44                <category android:name="android.intent.category.LAUNCHER" />
+44-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:29:17-77
+44-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:29:27-74
+45            </intent-filter>
+46        </activity>
+47        <activity
+47-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:32:9-42:20
+48            android:name="com.example.proyectohecamo.cultMaiz"
+48-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:33:13-37
+49            android:exported="true"
+49-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:34:13-36
+50            android:label="@string/title_activity_cult_maiz"
+50-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:35:13-61
+51            android:theme="@style/Theme.ProyectoHecamo" >
+51-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:36:13-56
+52            <intent-filter>
+52-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:26:13-30:29
+53                <action android:name="android.intent.action.MAIN" />
+53-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:27:17-69
+53-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:27:25-66
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:29:17-77
+55-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:29:27-74
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:43:9-51:20
+59            android:name="com.example.proyectohecamo.MainActivity"
+59-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:44:13-41
+60            android:exported="true" >
+60-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:45:13-36
+61            <intent-filter>
+61-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:26:13-30:29
+62                <action android:name="android.intent.action.MAIN" />
+62-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:27:17-69
+62-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:27:25-66
+63
+64                <category android:name="android.intent.category.LAUNCHER" />
+64-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:29:17-77
+64-->/Users/Moni/AndroidStudioProjects/ProyectoHecamo/app/src/main/AndroidManifest.xml:29:27-74
+65            </intent-filter>
+66        </activity>
+67
+68        <provider
+68-->[androidx.emoji2:emoji2:1.2.0] /Users/Moni/.gradle/caches/transforms-3/9ec162b5cb5dad7a953e18733a42dbca/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+69            android:name="androidx.startup.InitializationProvider"
+69-->[androidx.emoji2:emoji2:1.2.0] /Users/Moni/.gradle/caches/transforms-3/9ec162b5cb5dad7a953e18733a42dbca/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+70            android:authorities="com.example.proyectohecamo.androidx-startup"
+70-->[androidx.emoji2:emoji2:1.2.0] /Users/Moni/.gradle/caches/transforms-3/9ec162b5cb5dad7a953e18733a42dbca/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+71            android:exported="false" >
+71-->[androidx.emoji2:emoji2:1.2.0] /Users/Moni/.gradle/caches/transforms-3/9ec162b5cb5dad7a953e18733a42dbca/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+72            <meta-data
+72-->[androidx.emoji2:emoji2:1.2.0] /Users/Moni/.gradle/caches/transforms-3/9ec162b5cb5dad7a953e18733a42dbca/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+73-->[androidx.emoji2:emoji2:1.2.0] /Users/Moni/.gradle/caches/transforms-3/9ec162b5cb5dad7a953e18733a42dbca/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+74                android:value="androidx.startup" />
+74-->[androidx.emoji2:emoji2:1.2.0] /Users/Moni/.gradle/caches/transforms-3/9ec162b5cb5dad7a953e18733a42dbca/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Moni/.gradle/caches/transforms-3/4eb4b953398cff91e70e367f7f0f5a04/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+76                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+76-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Moni/.gradle/caches/transforms-3/4eb4b953398cff91e70e367f7f0f5a04/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+77                android:value="androidx.startup" />
+77-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/Moni/.gradle/caches/transforms-3/4eb4b953398cff91e70e367f7f0f5a04/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+78        </provider>
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0] /Users/Moni/.gradle/caches/transforms-3/2c7f8c69dcc114f4d646b70eba2a43b1/transformed/window-1.0.0/AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0] /Users/Moni/.gradle/caches/transforms-3/2c7f8c69dcc114f4d646b70eba2a43b1/transformed/window-1.0.0/AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0] /Users/Moni/.gradle/caches/transforms-3/2c7f8c69dcc114f4d646b70eba2a43b1/transformed/window-1.0.0/AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0] /Users/Moni/.gradle/caches/transforms-3/2c7f8c69dcc114f4d646b70eba2a43b1/transformed/window-1.0.0/AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0] /Users/Moni/.gradle/caches/transforms-3/2c7f8c69dcc114f4d646b70eba2a43b1/transformed/window-1.0.0/AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0] /Users/Moni/.gradle/caches/transforms-3/2c7f8c69dcc114f4d646b70eba2a43b1/transformed/window-1.0.0/AndroidManifest.xml:30:13-37
+86    </application>
+87
+88</manifest>

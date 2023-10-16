@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_content_prueba.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/content_prueba.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_activity_prueba.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_prueba.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_fragment_first.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_first.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_activity_main.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_fragment_first2.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_first2.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/xml_backup_rules.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/navigation_nav_graph.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/navigation_nav_graph2.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/navigation/nav_graph2.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_activity_cult_maiz.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_cult_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout-land_activity_prueba.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout-land/activity_prueba.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout-land_activity_cult_maiz.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout-land/activity_cult_maiz.xml"
+    },
+    {
+        "merged": "com.example.proyectohecamo.app-merged_res-40:/layout_activity_activity2_maiz.xml.flat",
+        "source": "com.example.proyectohecamo.app-main-42:/layout/activity_activity2_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_fragment_second2.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_second2.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_content_cult_maiz.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/content_cult_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_activity_activity2_maiz.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/activity_activity2_maiz.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/layout_fragment_second.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/layout/fragment_second.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/drawable-small_agroappi_png.png.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/drawable-small/agroappi_png.png"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/navigation_nav_graph3.xml.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/navigation/nav_graph3.xml"
+    },
+    {
+        "merged": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/Moni/.gradle/daemon/8.0/com.example.proyectohecamo.app-main-42:/mipmap-xxhdpi/ic_launcher.webp"
+    }
+]

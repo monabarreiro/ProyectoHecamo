@@ -13,6 +13,12 @@
         android:theme="@style/Theme.ProyectoHecamo"
         tools:targetApi="31">
         <activity
+            android:name=".Activity2Maiz"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityMaiz"
+            android:exported="false" />
+        <activity
             android:name=".Prueba"
             android:exported="true"
             android:label="@string/title_activity_prueba"

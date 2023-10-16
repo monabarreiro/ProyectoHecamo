@@ -13,47 +13,67 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
  Button buttonMaiz;
+ Button buttonSoja;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_main);
 
-        buttonMaiz = findViewById(R.id.buttonMaiz);
-        buttonMaiz.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick (View v) {
-               Intent intent = new Intent(MainActivity.this,Activity2Maiz.class); // aca  van a ir el activity desde la que estoy sliendo ala
-                // que quiero ir y creo ademas el activity nuevo
-                // inicio la segunda activity
-                startActivity(intent);
-            }
-        });
+		buttonMaiz = findViewById(R.id.buttonMaiz);
+		buttonSoja = findViewById(R.id.buttonSoja);
 
-      //  Button myButton = findViewById(+R.id.buttonMaiz);
-      //  myButton.setOnClickListener(new View.OnClickListener() {
+		buttonMaiz.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick (View v) {
+			   Intent intent = new Intent(MainActivity.this,Activity2Maiz.class);
 
-          //  @Override
-           // public void onClick(View view) {
+			   // aca  van a ir el activity desde la que estoy sliendo ala
+				// que quiero ir y creo ademas el activity nuevo
+				// inicio la segunda activity
+				startActivity(intent);
+			}
+		});
 
+		buttonSoja.setOnClickListener(new View.OnClickListener() {
+			@Override
+			 public void onClick (View v) {
+			 	Intent intent = new Intent(MainActivity.this,Activity3Soja.class);
 
-          //      TextView maiz = findViewById(+R.id.buttonMaiz);
-          //      maiz.setText(R.string.maiz);
-          //      maiz.setBackgroundColor(+R.color.naranja);
-            //    Toast.makeText(getApplicationContext(),getString(R.string.naranja),Toast.LENGTH_LONG);
+			  // aca  van a ir el activity desde la que estoy sliendo ala
+												  // que quiero ir y creo ademas el activity nuevo
+												  // inicio la segunda activity
+				 startActivity(intent);
+			}
 
-
-
-
-
-            }
-
-
-
-    //   });
+		});
 
 
 
-    }
+	  //  Button myButton = findViewById(+R.id.buttonMaiz);
+	  //  myButton.setOnClickListener(new View.OnClickListener() {
+
+		  //  @Override
+		   // public void onClick(View view) {
+
+
+		  //      TextView maiz = findViewById(+R.id.buttonMaiz);
+		  //      maiz.setText(R.string.maiz);
+		  //      maiz.setBackgroundColor(+R.color.naranja);
+			//    Toast.makeText(getApplicationContext(),getString(R.string.naranja),Toast.LENGTH_LONG);
+
+
+
+
+
+			}
+
+
+
+	//   });
+
+
+
+	}
 
 

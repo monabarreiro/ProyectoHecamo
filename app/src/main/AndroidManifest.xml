@@ -13,33 +13,12 @@
         android:theme="@style/Theme.ProyectoHecamo"
         tools:targetApi="31">
         <activity
+            android:name=".Activity3Soja"
+            android:exported="false" />
+        <activity
             android:name=".Activity2Maiz"
             android:exported="false" />
-        <activity
-            android:name=".ActivityMaiz"
-            android:exported="false" />
-        <activity
-            android:name=".Prueba"
-            android:exported="true"
-            android:label="@string/title_activity_prueba"
-            android:theme="@style/Theme.ProyectoHecamo">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name=".cultMaiz"
-            android:exported="true"
-            android:label="@string/title_activity_cult_maiz"
-            android:theme="@style/Theme.ProyectoHecamo">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">

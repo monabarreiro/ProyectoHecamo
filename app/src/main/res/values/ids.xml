@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="logo_agroappi">logo_agroappi</string>
+    <item name="buttonMaiz" type="id">btnMaiz</item>
 </resources>

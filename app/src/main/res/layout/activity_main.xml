@@ -17,19 +17,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="-309dp">
-
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:src="@tools:sample/avatars"
+            android:src="reference/color"
             app:srcCompat="@drawable/agroappi_png"
-            android:contentDescription="logo_agroappi" />
+            android:contentDescription="@string/imagen_logo_Agroappi" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
-            android:text=" Bienvenidos a AGROAPPI"
+            android:text="@string/bienvenidos_a_agroappi"
             android:textAlignment="center"
             android:textSize="48sp" />
 
@@ -42,7 +41,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
             android:lineSpacingExtra="4sp"
-            android:text="Laaplicacion"
+            android:text="@string/laAplicacion"
             android:textAlignment="center"
             android:textSize="18sp"
             tools:text="La aplicación que resuelve tus dudas acerca de las enfermedades que acosan a tus cultivos" />
@@ -51,15 +50,8 @@
             android:layout_width="match_parent"
             android:layout_height="20dp" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:fontFamily="sans-serif-black"
-            android:text="Elegí el cultivo"
-            android:textAlignment="center"
-            android:textSize="16dp"
-            android:textStyle="bold"
-            app:autoSizeTextType="uniform" />
+        <TextView android:text="@string/eleg_el_cultivo"
+            app:autoSizeTextType="uniform" style="@style/elegiElCultivo" />
 
         <Space
             android:layout_width="match_parent"

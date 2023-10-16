@@ -4,6 +4,11 @@
     <string name="Limon">Limon</string>
     <string name="Soja">Soja</string>
     <string name="Maiz">Maíz</string>
+    <string name="laAplicacion">laAplicacion</string>
+    <string name="eleg_el_cultivo">Elegí el cultivo</string>
+    <string name="bienvenidos_a_agroappi">Bienvenidos a AGROAPPI</string>
+    <string name="elegi_el_cultivo">eleccion del Cultivo</string>
+    <string name="imagen_logo_Agroappi">imagen_logo_Agro</string>
     <!-- Strings used for fragments for navigation -->
 
 

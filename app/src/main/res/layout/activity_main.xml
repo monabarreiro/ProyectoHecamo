@@ -17,14 +17,15 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="-309dp">
+
         <ImageView
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:src="reference/color"
             app:srcCompat="@drawable/agroappi_png"
             android:contentDescription="@string/imagen_logo_Agroappi" />
-
-        <TextView
+<TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-black"
